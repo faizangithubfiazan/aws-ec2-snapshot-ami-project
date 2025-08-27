@@ -1,14 +1,14 @@
 # aws-ec2-snapshot-ami-project
 “AWS EC2 project demonstrating Snapshots &amp; AMI for backup and recovery"
-# AWS EC2 Snapshot & AMI Project 🚀
+# AWS EC2 Snapshot & AMI Project 
 
-## 📌 Project Overview
+##  Project Overview
 This project demonstrates how to create an **EC2 instance backup** using **EBS Snapshots** and **AMI (Amazon Machine Image)**, and how to restore it successfully.
 
 ## 🛠️ Steps Performed
 1. Launched an **EC2 instance** and installed Apache (httpd).
 2. Deployed a custom webpage (`index.html`) showing:  
-   *“Hello, This is My Apache Web Server 🚀”*
+   *“Hello, This is My Apache Web Server ”*
 3. Created a **Snapshot** of the EBS volume (data backup).
 4. Terminated the original instance (to simulate data loss).
 5. Created an **AMI** from the Snapshot.
@@ -20,15 +20,7 @@ This project demonstrates how to create an **EC2 instance backup** using **EBS S
 - How Snapshots and AMIs help in **disaster recovery**.
 - Importance of **backups** in cloud infrastructure.
 
-## 📷 Screenshots
-| Step | Screenshot |
-|------|------------|
-| EC2 instance running with Apache | ![EC2 Instance](screenshots/ec2-instance-running.png) |
-| Snapshot created | ![Snapshot](screenshots/snapshot-created.png) |
-| AMI created | ![AMI](screenshots/ami-created.png) |
-| Restored instance Apache page | ![Restored Instance](screenshots/restored-instance.png) |
-
 ## 🔗 LinkedIn Post
-Check out my LinkedIn post about this project 👉 [Add Your LinkedIn Post Link Here]
+Check out my LinkedIn post about this project 👉  https://www.linkedin.com/posts/md-faizan-bb9998234_aws-ec2-cloudcomputing-activity-7366509684263968769-fU_Z?utm_source=share&utm_medium=member_desktop&rcm=ACoAADqFwb0B3mY-3tfXzS8MUobP_65azcolSNo
 
 ---
